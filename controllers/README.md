@@ -80,7 +80,7 @@ DELETE /api/questions/64f1a2b3c4d5e6f7g8h9i0j1
 Obtiene todas las preguntas de CSS.
 
 **Parámetros de consulta:**
-- `level` (opcional): Filtrar por nivel (1, 2, 3)
+- `level` (opcional): Filtrar por nivel (1, 2, 3,4)
 - `limit` (opcional): Número máximo de resultados (default: 10)
 
 **Ejemplo:**
