@@ -21,10 +21,10 @@
     "options": [
       "Cascading Style Sheets",
       "Computer Style System",
-      "Creative Style Sheets",
+      "HyperText Markup Language",
       "Color Style System"
     ],
-    "answer": "Lenguaje para estructurar contenido Web.",
+    "answer": "HyperText Markup Language",
     "explanation": "HTML define la estructura de las páginas web."
   },
   {
