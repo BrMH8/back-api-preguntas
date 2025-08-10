@@ -10,10 +10,10 @@ const getAllIntroductions = async (req, res) => {
       data: introductions
     });
   } catch (error) {
-    res.status(500).json({ 
+    res.status(500).json({
       success: false,
       message: 'Error al obtener introducciones',
-      error: error.message 
+      error: error.message
     });
   }
 };
@@ -23,20 +23,35 @@ const getIntroductionByLanguage = async (req, res) => {
   try {
     const introduction = await Introduction.findOne({ language: req.params.language });
     if (!introduction) {
-      return res.status(404).json({ 
+      return res.status(404).json({
         success: false,
-        message: 'Introducción no encontrada para este lenguaje' 
+        message: 'Introducción no encontrada para este lenguaje'
       });
     }
+
+    // --- CÓDIGO AÑADIDO / MODIFICADO ---
+    // Extraer la descripción y el primer ejemplo de código
+    const description = introduction.description;
+    let codeExample = null;
+    if (introduction.examples && introduction.examples.length > 0) {
+      codeExample = introduction.examples[0].code;
+    }
+
+    // Enviar una respuesta personalizada
     res.json({
       success: true,
-      data: introduction
+      data: {
+        description: description,
+        codeExample: codeExample
+      }
     });
+    // --- FIN DE CÓDIGO AÑADIDO / MODIFICADO ---
+
   } catch (error) {
-    res.status(500).json({ 
+    res.status(500).json({
       success: false,
       message: 'Error al obtener introducción',
-      error: error.message 
+      error: error.message
     });
   }
 };
@@ -51,10 +66,10 @@ const createIntroduction = async (req, res) => {
       data: saved
     });
   } catch (error) {
-    res.status(400).json({ 
+    res.status(400).json({
       success: false,
-      message: 'Error al crear introducción', 
-      error: error.message 
+      message: 'Error al crear introducción',
+      error: error.message
     });
   }
 };
@@ -63,15 +78,15 @@ const createIntroduction = async (req, res) => {
 const updateIntroduction = async (req, res) => {
   try {
     const updatedIntroduction = await Introduction.findOneAndUpdate(
-      { language: req.params.language }, 
-      req.body, 
+      { language: req.params.language },
+      req.body,
       { new: true, runValidators: true }
     );
     
     if (!updatedIntroduction) {
-      return res.status(404).json({ 
+      return res.status(404).json({
         success: false,
-        message: 'Introducción no encontrada' 
+        message: 'Introducción no encontrada'
       });
     }
     
@@ -80,10 +95,10 @@ const updateIntroduction = async (req, res) => {
       data: updatedIntroduction
     });
   } catch (error) {
-    res.status(400).json({ 
+    res.status(400).json({
       success: false,
       message: 'Error al actualizar introducción',
-      error: error.message 
+      error: error.message
     });
   }
 };
@@ -93,17 +108,17 @@ const deleteIntroduction = async (req, res) => {
   try {
     const introduction = await Introduction.findOneAndDelete({ language: req.params.language });
     if (!introduction) {
-      return res.status(404).json({ 
+      return res.status(404).json({
         success: false,
-        message: 'Introducción no encontrada' 
+        message: 'Introducción no encontrada'
       });
     }
     res.status(204).send();
   } catch (error) {
-    res.status(500).json({ 
+    res.status(500).json({
       success: false,
       message: 'Error al eliminar introducción',
-      error: error.message 
+      error: error.message
     });
   }
 };
@@ -169,7 +184,7 @@ const seedIntroductions = async (req, res) => {
         difficulty: 1,
         estimatedTime: '1-2 semanas',
         prerequisites: ['Ninguno'],
-        icon: '📄',
+        icon: '�',
         color: '#e34f26'
       },
       {
@@ -248,10 +263,10 @@ const seedIntroductions = async (req, res) => {
       data: result
     });
   } catch (error) {
-    res.status(500).json({ 
+    res.status(500).json({
       success: false,
       message: 'Error al poblar la base de datos',
-      error: error.message 
+      error: error.message
     });
   }
 };
@@ -348,7 +363,7 @@ const getReactIntroduction = async (req, res) => {
   }
 };
 
-module.exports = { 
+module.exports = {
   getAllIntroductions,
   getIntroductionByLanguage,
   createIntroduction,
@@ -359,4 +374,4 @@ module.exports = {
   getHTMLIntroduction,
   getJavaScriptIntroduction,
   getReactIntroduction
-}; 
+};
