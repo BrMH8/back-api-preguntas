@@ -150,7 +150,7 @@
       "Insertar una imagen",
       "Definir un bloque"
     ],
-    "answer": "Insertar un salto de línea.",
+    "answer": "Insertar un salto de línea",
     "explanation": "Salto de línea dentro de texto."
   },
   {
@@ -164,7 +164,7 @@
       "Para colocar un enlace",
       "Para definir el tamaño de la imagen"
     ],
-    "answer": "Texto alternativo si la imagen no carga.",
+    "answer": "Texto alternativo si la imagen no carga",
     "explanation": "Importante para accesibilidad."
   },
   {
