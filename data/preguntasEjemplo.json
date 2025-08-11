@@ -234,7 +234,7 @@
       "Ambos son elementos en línea",
       "Ambos son elementos de bloque"
     ],
-    "answer": "<div> es bloque y <span> en línea.",
+    "answer": "<div> es un elemento de bloque y <span> en línea",
     "explanation": "Difieren en comportamiento visual."
   },
   {
@@ -276,7 +276,7 @@
       "Insertar estilos",
       "Crear párrafos"
     ],
-    "answer": "Definir metadata sobre la página.",
+    "answer": "Definir metadata sobre la página",
     "explanation": "Provee información para navegadores y buscadores."
   },
   {
