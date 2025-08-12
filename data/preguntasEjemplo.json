@@ -1,6 +1,6 @@
 [
   {
-     "language": "react",
+    "language": "react",
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Qué es React?",
@@ -10,16 +10,16 @@
       "Una base de datos NoSQL",
       "Un sistema operativo"
     ],
-    "answer": "Un framework de JavaScript para crear interfaces de usuario.",
+    "answer": "Un framework de JavaScript para crear interfaces de usuario",
     "explanation": "React es una biblioteca de JavaScript para construir interfaces de usuario, especialmente aplicaciones de una sola página."
   },
-   {
+  {
     "language": "html5",
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Qué es HTML?",
     "options": [
-      "Cascading Style Sheets",
+      "Lenguaje para estructurar contenido Web.",
       "Computer Style System",
       "Creative Style Sheets",
       "Color Style System"
@@ -38,7 +38,7 @@
       "Definir párrafos",
       "Agregar estilos CSS"
     ],
-    "answer": "Crear enlaces (hipervínculos).",
+    "answer": "Crear enlaces (hipervínculos)",
     "explanation": "Permite la navegación entre páginas."
   },
   {
@@ -113,7 +113,7 @@
   },
   {
     "language": "html5",
-    "level":2,
+    "level": 2,
     "type": "multiple_choice",
     "question": "¿Qué etiqueta crea una lista ordenada?",
     "options": [
@@ -150,7 +150,7 @@
       "Insertar una imagen",
       "Definir un bloque"
     ],
-    "answer": "Insertar un salto de línea.",
+    "answer": "Insertar un salto de línea",
     "explanation": "Salto de línea dentro de texto."
   },
   {
@@ -164,7 +164,7 @@
       "Para colocar un enlace",
       "Para definir el tamaño de la imagen"
     ],
-    "answer": "Texto alternativo si la imagen no carga.",
+    "answer": "Texto alternativo si la imagen no carga",
     "explanation": "Importante para accesibilidad."
   },
   {
@@ -234,7 +234,7 @@
       "Ambos son elementos en línea",
       "Ambos son elementos de bloque"
     ],
-    "answer": "<div> es bloque y <span> en línea.",
+    "answer": "<div> es un elemento de bloque y <span> en línea",
     "explanation": "Difieren en comportamiento visual."
   },
   {
@@ -276,7 +276,7 @@
       "Insertar estilos",
       "Crear párrafos"
     ],
-    "answer": "Definir metadata sobre la página.",
+    "answer": "Definir metadata sobre la página",
     "explanation": "Provee información para navegadores y buscadores."
   },
   {
@@ -298,7 +298,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Cuál es la propiedad para cambiar el color del texto?",
-    "options": ["color", "text-color", "font-color", "text-style"],
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "text-style"
+    ],
     "answer": "color",
     "explanation": "La propiedad 'color' en CSS se usa para cambiar el color del texto de un elemento."
   },
@@ -307,7 +312,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Qué propiedad se utiliza para cambiar el tipo de letra?",
-    "options": ["font", "font-type", "font-family", "text-font"],
+    "options": [
+      "font",
+      "font-type",
+      "font-family",
+      "text-font"
+    ],
     "answer": "font-family",
     "explanation": "'font-family' permite especificar la fuente tipográfica de un texto."
   },
@@ -330,7 +340,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Qué valor de la propiedad 'display' oculta completamente un elemento?",
-    "options": ["none", "hidden", "invisible", "block"],
+    "options": [
+      "none",
+      "hidden",
+      "invisible",
+      "block"
+    ],
     "answer": "none",
     "explanation": "'display: none' oculta el elemento y elimina su espacio en el diseño."
   },
@@ -353,7 +368,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué unidad es relativa al tamaño de fuente del elemento actual?",
-    "options": ["px", "em", "%", "vh"],
+    "options": [
+      "px",
+      "em",
+      "%",
+      "vh"
+    ],
     "answer": "em",
     "explanation": "'em' es una unidad relativa que depende del tamaño de fuente del elemento padre o del propio."
   },
@@ -362,7 +382,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué propiedad se utiliza para aplicar múltiples fondos a un elemento?",
-    "options": ["background-layer", "multi-bg", "background", "backgrounds"],
+    "options": [
+      "background-layer",
+      "multi-bg",
+      "background",
+      "backgrounds"
+    ],
     "answer": "background",
     "explanation": "La propiedad 'background' permite definir múltiples imágenes de fondo separadas por comas."
   },
@@ -371,7 +396,12 @@
     "level": 4,
     "type": "multiple_choice",
     "question": "¿Qué valor de 'position' posiciona un elemento en relación con su contenedor más cercano con posición relativa?",
-    "options": ["fixed", "static", "absolute", "relative"],
+    "options": [
+      "fixed",
+      "static",
+      "absolute",
+      "relative"
+    ],
     "answer": "absolute",
     "explanation": "'absolute' posiciona el elemento respecto al primer ancestro con posición distinta a 'static'."
   },
@@ -394,7 +424,12 @@
     "level": 4,
     "type": "multiple_choice",
     "question": "¿Qué propiedad permite crear animaciones en CSS?",
-    "options": ["transition", "animation", "motion", "transform"],
+    "options": [
+      "transition",
+      "animation",
+      "motion",
+      "transform"
+    ],
     "answer": "animation",
     "explanation": "'animation' permite aplicar animaciones definidas con keyframes a los elementos."
   },
@@ -403,7 +438,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Qué palabra clave se utiliza para declarar una variable en JavaScript?",
-    "options": ["var", "int", "define", "declare"],
+    "options": [
+      "var",
+      "int",
+      "define",
+      "declare"
+    ],
     "answer": "var",
     "explanation": "La palabra clave 'var' se utiliza para declarar variables en JavaScript (aunque también existen 'let' y 'const')."
   },
@@ -412,7 +452,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Cuál de los siguientes valores es un tipo de dato primitivo?",
-    "options": ["object", "function", "number", "array"],
+    "options": [
+      "object",
+      "function",
+      "number",
+      "array"
+    ],
     "answer": "number",
     "explanation": "Los tipos primitivos incluyen number, string, boolean, null, undefined y symbol."
   },
@@ -421,7 +466,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Qué operador se utiliza para concatenar cadenas en JavaScript?",
-    "options": ["+", "&", ".", "concat"],
+    "options": [
+      "+",
+      "&",
+      ".",
+      "concat"
+    ],
     "answer": "+",
     "explanation": "El operador '+' se utiliza para concatenar cadenas en JavaScript."
   },
@@ -430,7 +480,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Cómo se escribe un comentario de una línea en JavaScript?",
-    "options": ["<!-- comentario -->", "// comentario", "# comentario", "** comentario **"],
+    "options": [
+      "<!-- comentario -->",
+      "// comentario",
+      "# comentario",
+      "** comentario **"
+    ],
     "answer": "// comentario",
     "explanation": "Los comentarios de una línea en JavaScript se escriben con doble barra diagonal: //"
   },
@@ -439,7 +494,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Cuál es el resultado de 2 + '2' en JavaScript?",
-    "options": ["4", "22", "NaN", "undefined"],
+    "options": [
+      "4",
+      "22",
+      "NaN",
+      "undefined"
+    ],
     "answer": "22",
     "explanation": "JavaScript convierte el número 2 a cadena y concatena, resultando en '22'."
   },
@@ -448,7 +508,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Cuál es la diferencia entre 'let' y 'var'?",
-    "options": ["let tiene alcance de función, var no", "var es más seguro que let", "let tiene alcance de bloque, var tiene alcance de función", "no hay diferencia"],
+    "options": [
+      "let tiene alcance de función, var no",
+      "var es más seguro que let",
+      "let tiene alcance de bloque, var tiene alcance de función",
+      "no hay diferencia"
+    ],
     "answer": "let tiene alcance de bloque, var tiene alcance de función",
     "explanation": "La principal diferencia es el alcance: 'let' tiene alcance de bloque, mientras que 'var' tiene alcance de función."
   },
@@ -457,7 +522,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Qué valor devuelve 'typeof null'?",
-    "options": ["null", "object", "undefined", "boolean"],
+    "options": [
+      "null",
+      "object",
+      "undefined",
+      "boolean"
+    ],
     "answer": "object",
     "explanation": "'typeof null' devuelve 'object' por una peculiaridad del lenguaje desde sus inicios."
   },
@@ -466,7 +536,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Qué método convierte una cadena en un número entero?",
-    "options": ["parseFloat()", "Number()", "parseInt()", "toNumber()"],
+    "options": [
+      "parseFloat()",
+      "Number()",
+      "parseInt()",
+      "toNumber()"
+    ],
     "answer": "parseInt()",
     "explanation": "parseInt() convierte una cadena en un número entero."
   },
@@ -475,7 +550,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Qué significa NaN en JavaScript?",
-    "options": ["Not a Number", "New assigned Number", "Next available Number", "Null and None"],
+    "options": [
+      "Not a Number",
+      "New assigned Number",
+      "Next available Number",
+      "Null and None"
+    ],
     "answer": "Not a Number",
     "explanation": "NaN significa 'Not a Number' y aparece cuando una operación matemática falla."
   },
@@ -484,7 +564,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Qué método se usa para recorrer todos los elementos de un array?",
-    "options": ["map()", "filter()", "reduce()", "forEach()"],
+    "options": [
+      "map()",
+      "filter()",
+      "reduce()",
+      "forEach()"
+    ],
     "answer": "forEach()",
     "explanation": "forEach() ejecuta una función en cada elemento del array."
   },
@@ -493,7 +578,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué hace el método 'bind()' en una función?",
-    "options": ["Llama a la función", "Copia la función", "Establece el valor de 'this'", "Elimina la función"],
+    "options": [
+      "Llama a la función",
+      "Copia la función",
+      "Establece el valor de 'this'",
+      "Elimina la función"
+    ],
     "answer": "Establece el valor de 'this'",
     "explanation": "bind() permite establecer el valor de 'this' para una función."
   },
@@ -502,7 +592,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Cuál es el propósito del operador '===' en JavaScript?",
-    "options": ["Compara solo valores", "Compara valores y tipos", "Asigna valores", "Convierte tipos automáticamente"],
+    "options": [
+      "Compara solo valores",
+      "Compara valores y tipos",
+      "Asigna valores",
+      "Convierte tipos automáticamente"
+    ],
     "answer": "Compara valores y tipos",
     "explanation": "'===' compara tanto el valor como el tipo de los operandos."
   },
@@ -511,7 +606,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué estructura permite manejar errores en JavaScript?",
-    "options": ["if...else", "try...catch", "switch", "do...while"],
+    "options": [
+      "if...else",
+      "try...catch",
+      "switch",
+      "do...while"
+    ],
     "answer": "try...catch",
     "explanation": "try...catch se utiliza para capturar y manejar errores en tiempo de ejecución."
   },
@@ -520,7 +620,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué resultado da '0 == false'?",
-    "options": ["true", "false", "undefined", "Error"],
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
     "answer": "true",
     "explanation": "Con '==', JavaScript convierte tipos antes de comparar, y 0 es igual a false."
   },
@@ -529,7 +634,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué hace la función setTimeout()?",
-    "options": ["Repite una función indefinidamente", "Ejecuta una función después de cierto tiempo", "Detiene la ejecución del programa", "Cancela una función"],
+    "options": [
+      "Repite una función indefinidamente",
+      "Ejecuta una función después de cierto tiempo",
+      "Detiene la ejecución del programa",
+      "Cancela una función"
+    ],
     "answer": "Ejecuta una función después de cierto tiempo",
     "explanation": "setTimeout() ejecuta una función una vez después de un tiempo especificado en milisegundos."
   },
@@ -538,7 +648,12 @@
     "level": 1,
     "type": "multiple_choice",
     "question": "¿Qué símbolo se utiliza para terminar una instrucción en JavaScript?",
-    "options": ["!", ";", ".", ","],
+    "options": [
+      "!",
+      ";",
+      ".",
+      ","
+    ],
     "answer": ";",
     "explanation": "Se recomienda usar punto y coma (;) para terminar instrucciones, aunque no siempre es obligatorio."
   },
@@ -547,7 +662,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Cuál es el método correcto para convertir un número a cadena?",
-    "options": ["toString()", "stringify()", "toChar()", "convert()"],
+    "options": [
+      "toString()",
+      "stringify()",
+      "toChar()",
+      "convert()"
+    ],
     "answer": "toString()",
     "explanation": "El método toString() convierte un número a cadena."
   },
@@ -556,7 +676,12 @@
     "level": 2,
     "type": "multiple_choice",
     "question": "¿Qué hace el método 'push()' en un array?",
-    "options": ["Elimina el último elemento", "Agrega un elemento al final", "Ordena los elementos", "Invierte el array"],
+    "options": [
+      "Elimina el último elemento",
+      "Agrega un elemento al final",
+      "Ordena los elementos",
+      "Invierte el array"
+    ],
     "answer": "Agrega un elemento al final",
     "explanation": "push() agrega uno o más elementos al final de un array."
   },
@@ -565,7 +690,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué devuelve una función sin valor explícito de retorno?",
-    "options": ["null", "false", "undefined", "0"],
+    "options": [
+      "null",
+      "false",
+      "undefined",
+      "0"
+    ],
     "answer": "undefined",
     "explanation": "Si no se especifica un valor de retorno, una función devuelve undefined por defecto."
   },
@@ -574,7 +704,12 @@
     "level": 3,
     "type": "multiple_choice",
     "question": "¿Qué método se usa para combinar dos arrays?",
-    "options": ["join()", "concat()", "merge()", "append()"],
+    "options": [
+      "join()",
+      "concat()",
+      "merge()",
+      "append()"
+    ],
     "answer": "concat()",
     "explanation": "concat() se utiliza para combinar dos o más arrays en uno solo."
   },
@@ -649,4 +784,3 @@
     "explanation": "El operador '??' devuelve el operando de la izquierda si no es null ni undefined; de lo contrario, devuelve el operando de la derecha."
   }
 ]
-  
