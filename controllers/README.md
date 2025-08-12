@@ -396,3 +396,14 @@ node scripts/seedIntroductions.js
 
 **Última actualización**: Enero 2024
 **Versión**: 1.0.0 
+
+## 🚀 Funcionamiento en movil
+
+Para hacer funcionar la api en el front pero en movil
+
+# Win + R = cmd 
+verifica q la **API** este corriendo primero antes de ejecutar el siguiente comando
+
+```bash
+ngrok http 5000
+```

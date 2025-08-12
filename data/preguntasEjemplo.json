@@ -782,5 +782,425 @@
     ],
     "answer": "Devuelve el primer operando si es distinto de null o undefined",
     "explanation": "El operador '??' devuelve el operando de la izquierda si no es null ni undefined; de lo contrario, devuelve el operando de la derecha."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué es React?",
+    "options": [
+      "Un framework de JavaScript para crear interfaces de usuario",
+      "Un lenguaje de programación",
+      "Una base de datos NoSQL",
+      "Un sistema operativo"
+    ],
+    "answer": "Un framework de JavaScript para crear interfaces de usuario",
+    "explanation": "React es una biblioteca de JavaScript para construir interfaces de usuario, especialmente aplicaciones de una sola página."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la función principal de React?",
+    "options": [
+      "Manipular directamente el DOM",
+      "Crear y actualizar interfaces de usuario de forma eficiente",
+      "Ejecutar consultas a bases de datos",
+      "Servir archivos estáticos"
+    ],
+    "answer": "Crear y actualizar interfaces de usuario de forma eficiente",
+    "explanation": "React permite construir interfaces de usuario reactivas y eficientes utilizando un DOM virtual para optimizar actualizaciones."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué es un componente en React?",
+    "options": [
+      "Una base de datos interna",
+      "Una función o clase que devuelve elementos de interfaz",
+      "Un archivo CSS",
+      "Un servidor de API"
+    ],
+    "answer": "Una función o clase que devuelve elementos de interfaz",
+    "explanation": "En React, un componente es una unidad reutilizable que describe parte de la interfaz de usuario."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Cómo se llama la sintaxis que combina HTML y JavaScript en React?",
+    "options": [
+      "HTML+",
+      "JSX",
+      "JScript",
+      "ReactML"
+    ],
+    "answer": "JSX",
+    "explanation": "JSX es una extensión de JavaScript que permite escribir HTML dentro del código JS para describir la UI."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué método se utiliza para renderizar un componente en el DOM?",
+    "options": [
+      "React.create()",
+      "ReactDOM.render()",
+      "renderDOM()",
+      "createDOM()"
+    ],
+    "answer": "ReactDOM.render()",
+    "explanation": "ReactDOM.render() es el método usado para mostrar un componente de React dentro del DOM real."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué tipo de datos pueden recibir las props en React?",
+    "options": [
+      "Solo cadenas de texto",
+      "Solo objetos",
+      "Cualquier tipo de dato válido en JavaScript",
+      "Solo números y booleanos"
+    ],
+    "answer": "Cualquier tipo de dato válido en JavaScript",
+    "explanation": "Las props pueden ser cualquier valor que JavaScript permita: números, strings, booleanos, objetos, funciones, etc."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué empresa desarrolló React?",
+    "options": [
+      "Google",
+      "Microsoft",
+      "Meta (Facebook)",
+      "Amazon"
+    ],
+    "answer": "Meta (Facebook)",
+    "explanation": "React fue desarrollado por ingenieros de Facebook, ahora Meta."
+  },
+  {
+    "language": "react",
+    "level": 1,
+    "type": "multiple_choice",
+    "question": "¿Qué significa que React sea declarativo?",
+    "options": [
+      "Que se enfoca en cómo manipular el DOM paso a paso",
+      "Que describe el resultado esperado de la interfaz y React decide cómo actualizarla",
+      "Que no se puede modificar su código fuente",
+      "Que no se puede usar con JavaScript"
+    ],
+    "answer": "Que describe el resultado esperado de la interfaz y React decide cómo actualizarla",
+    "explanation": "En un enfoque declarativo, describes el estado final de la UI y React maneja las actualizaciones necesarias."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hook se utiliza para manejar estado en componentes funcionales?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useRef",
+      "useContext"
+    ],
+    "answer": "useState",
+    "explanation": "useState es un hook que permite a los componentes funcionales tener y actualizar estado interno."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué propiedad de los componentes permite pasarles datos desde el padre?",
+    "options": [
+      "props",
+      "state",
+      "context",
+      "render"
+    ],
+    "answer": "props",
+    "explanation": "Las props (propiedades) son datos que se pasan a los componentes desde su padre para configurar su comportamiento."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hook se usa para ejecutar código después de renderizar?",
+    "options": [
+      "useCallback",
+      "useEffect",
+      "useMemo",
+      "useState"
+    ],
+    "answer": "useEffect",
+    "explanation": "useEffect ejecuta efectos secundarios como llamadas a API o suscripciones después del render."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hook devuelve un valor que persiste entre renders sin causar re-render?",
+    "options": [
+      "useEffect",
+      "useMemo",
+      "useRef",
+      "useReducer"
+    ],
+    "answer": "useRef",
+    "explanation": "useRef mantiene un valor persistente que no dispara un nuevo render cuando cambia."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hook es útil para optimizar funciones que se pasan como props?",
+    "options": [
+      "useCallback",
+      "useEffect",
+      "useMemo",
+      "useRef"
+    ],
+    "answer": "useCallback",
+    "explanation": "useCallback memoriza funciones para evitar recrearlas en cada render y así optimizar rendimiento."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué hook es útil para manejar estados complejos con múltiples subvalores?",
+    "options": [
+      "useState",
+      "useReducer",
+      "useContext",
+      "useMemo"
+    ],
+    "answer": "useReducer",
+    "explanation": "useReducer es ideal para manejar estados con lógica compleja o múltiples valores interrelacionados."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué se necesita para que un componente React sea controlado?",
+    "options": [
+      "Tener estado interno que maneje su valor",
+      "Usar siempre useEffect",
+      "No recibir props",
+      "Estar envuelto en React.memo"
+    ],
+    "answer": "Tener estado interno que maneje su valor",
+    "explanation": "Un componente controlado tiene su valor gestionado por React mediante estado y props."
+  },
+  {
+    "language": "react",
+    "level": 2,
+    "type": "multiple_choice",
+    "question": "¿Qué es el Context API en React?",
+    "options": [
+      "Una API para manejar rutas",
+      "Una herramienta para compartir datos globales sin pasar props manualmente",
+      "Una librería externa de React",
+      "Un método para optimizar renderizado"
+    ],
+    "answer": "Una herramienta para compartir datos globales sin pasar props manualmente",
+    "explanation": "Context API permite compartir datos a lo largo del árbol de componentes sin 'prop drilling'."
+  },
+  {
+    "language": "react",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la función de useEffect en React?",
+    "options": [
+      "Manejar el estado del componente",
+      "Ejecutar efectos secundarios después del renderizado",
+      "Optimizar el rendimiento de la aplicación",
+      "Definir rutas en la aplicación"
+    ],
+    "answer": "Ejecutar efectos secundarios después del renderizado",
+    "explanation": "useEffect permite ejecutar código adicional (como peticiones o suscripciones) después de que el componente se renderice."
+  },
+  {
+    "language": "react",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la diferencia principal entre state y props?",
+    "options": [
+      "state es inmutable, props es mutable",
+      "state pertenece al componente y props se recibe desde fuera",
+      "props solo se usa con clases",
+      "state solo se usa con funciones"
+    ],
+    "answer": "state pertenece al componente y props se recibe desde fuera",
+    "explanation": "El state es interno y controlado por el propio componente, mientras que las props se reciben desde un componente padre."
+  },
+  {
+    "language": "react",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué ocurre si no se pasa una key única a los elementos en un .map()?",
+    "options": [
+      "React genera automáticamente una key única",
+      "Puede causar problemas de rendimiento y renderizado incorrecto",
+      "El código no compila",
+      "El componente se vuelve inmutable"
+    ],
+    "answer": "Puede causar problemas de rendimiento y renderizado incorrecto",
+    "explanation": "Las keys ayudan a React a identificar elementos y evitar renders innecesarios."
+  },
+  {
+    "language": "react",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué hook se usa para memorizar valores calculados?",
+    "options": [
+      "useMemo",
+      "useCallback",
+      "useEffect",
+      "useState"
+    ],
+    "answer": "useMemo",
+    "explanation": "useMemo guarda valores calculados para no recalcularlos en cada render."
+  },
+  {
+    "language": "react",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué es el prop drilling?",
+    "options": [
+      "El paso innecesario de props a través de múltiples niveles de componentes",
+      "Un método para depurar código",
+      "Una técnica para optimizar renders",
+      "Un hook avanzado"
+    ],
+    "answer": "El paso innecesario de props a través de múltiples niveles de componentes",
+    "explanation": "Prop drilling ocurre cuando datos deben pasar por componentes que no los necesitan, solo para llegar a otros más abajo."
+  },
+  {
+    "language": "react",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Cómo se actualiza el estado basado en el valor anterior en useState?",
+    "options": [
+      "Pasando el nuevo valor directamente",
+      "Pasando una función que recibe el estado previo",
+      "Usando useEffect",
+      "Usando setState sin argumentos"
+    ],
+    "answer": "Pasando una función que recibe el estado previo",
+    "explanation": "setState permite recibir el valor previo para calcular el nuevo estado correctamente."
+  },
+  {
+    "language": "react",
+    "level": 3,
+    "type": "multiple_choice",
+    "question": "¿Qué método del ciclo de vida equivale a useEffect con [] en componentes de clase?",
+    "options": [
+      "componentDidUpdate",
+      "componentDidMount",
+      "componentWillUnmount",
+      "render"
+    ],
+    "answer": "componentDidMount",
+    "explanation": "useEffect con [] se ejecuta solo una vez después del primer render, igual que componentDidMount."
+  },
+  {
+    "language": "react",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué es el Virtual DOM en React?",
+    "options": [
+      "Una copia idéntica del DOM almacenada en el navegador",
+      "Una representación en memoria del DOM real que React usa para optimizar actualizaciones",
+      "Un API del navegador para manipular el DOM",
+      "Un servidor especial para React"
+    ],
+    "answer": "Una representación en memoria del DOM real que React usa para optimizar actualizaciones",
+    "explanation": "El Virtual DOM es una copia en memoria que React usa para calcular los cambios antes de aplicarlos al DOM real, mejorando el rendimiento."
+  },
+  {
+    "language": "react",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Cuál es la diferencia entre React.memo y useMemo?",
+    "options": [
+      "React.memo es para memorizar valores, useMemo es para componentes",
+      "React.memo memoriza componentes para evitar renders innecesarios, useMemo memoriza valores o resultados de funciones",
+      "No hay diferencia, son lo mismo",
+      "useMemo solo se puede usar con clases"
+    ],
+    "answer": "React.memo memoriza componentes para evitar renders innecesarios, useMemo memoriza valores o resultados de funciones",
+    "explanation": "React.memo evita que un componente funcional se renderice si sus props no han cambiado, mientras que useMemo almacena valores calculados para no recalcularlos en cada render."
+  },
+  {
+    "language": "react",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué es la reconciliación en React?",
+    "options": [
+      "El proceso de unir múltiples componentes",
+      "El algoritmo que React usa para actualizar el DOM de forma eficiente",
+      "Un hook experimental",
+      "Un método para sincronizar estados"
+    ],
+    "answer": "El algoritmo que React usa para actualizar el DOM de forma eficiente",
+    "explanation": "La reconciliación compara el Virtual DOM previo con el nuevo para aplicar solo los cambios necesarios."
+  },
+  {
+    "language": "react",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué técnica se puede usar para cargar componentes bajo demanda?",
+    "options": [
+      "Lazy loading con React.lazy",
+      "ReactDOM.preload",
+      "useDeferred",
+      "componentDelay"
+    ],
+    "answer": "Lazy loading con React.lazy",
+    "explanation": "React.lazy permite importar componentes dinámicamente para reducir el tamaño inicial del bundle."
+  },
+  {
+    "language": "react",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué hook se usa para diferir cálculos pesados hasta que sea necesario?",
+    "options": [
+      "useMemo",
+      "useCallback",
+      "useDeferredValue",
+      "useRef"
+    ],
+    "answer": "useMemo",
+    "explanation": "useMemo retrasa la ejecución de cálculos hasta que cambien sus dependencias."
+  },
+  {
+    "language": "react",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué problema soluciona el hook useTransition?",
+    "options": [
+      "Controlar datos globales",
+      "Separar actualizaciones urgentes de las no urgentes",
+      "Cargar imágenes de forma diferida",
+      "Evitar renders de hijos"
+    ],
+    "answer": "Separar actualizaciones urgentes de las no urgentes",
+    "explanation": "useTransition permite marcar ciertas actualizaciones como no urgentes para mantener la UI fluida."
+  },
+  {
+    "language": "react",
+    "level": 4,
+    "type": "multiple_choice",
+    "question": "¿Qué hook se utiliza para suscribirse manualmente a un evento externo y limpiar al desmontar?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useCallback",
+      "useMemo"
+    ],
+    "answer": "useEffect",
+    "explanation": "useEffect es ideal para suscribirse a eventos y devolver una función de limpieza para liberar recursos."
   }
 ]
