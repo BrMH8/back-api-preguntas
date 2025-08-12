@@ -21,10 +21,10 @@
     "options": [
       "Lenguaje para estructurar contenido Web.",
       "Computer Style System",
-      "HyperText Markup Language",
+      "Creative Style Sheets",
       "Color Style System"
     ],
-    "answer": "HyperText Markup Language",
+    "answer": "Lenguaje para estructurar contenido Web.",
     "explanation": "HTML define la estructura de las páginas web."
   },
   {
@@ -38,7 +38,6 @@
       "Definir párrafos",
       "Agregar estilos CSS"
     ],
-    "answer": "Crear enlaces (hipervínculos)",
     "answer": "Crear enlaces (hipervínculos)",
     "explanation": "Permite la navegación entre páginas."
   },
@@ -152,7 +151,6 @@
       "Definir un bloque"
     ],
     "answer": "Insertar un salto de línea",
-    "answer": "Insertar un salto de línea",
     "explanation": "Salto de línea dentro de texto."
   },
   {
@@ -166,7 +164,6 @@
       "Para colocar un enlace",
       "Para definir el tamaño de la imagen"
     ],
-    "answer": "Texto alternativo si la imagen no carga",
     "answer": "Texto alternativo si la imagen no carga",
     "explanation": "Importante para accesibilidad."
   },
@@ -238,7 +235,6 @@
       "Ambos son elementos de bloque"
     ],
     "answer": "<div> es un elemento de bloque y <span> en línea",
-    "answer": "<div> es un elemento de bloque y <span> en línea",
     "explanation": "Difieren en comportamiento visual."
   },
   {
@@ -280,7 +276,6 @@
       "Insertar estilos",
       "Crear párrafos"
     ],
-    "answer": "Definir metadata sobre la página",
     "answer": "Definir metadata sobre la página",
     "explanation": "Provee información para navegadores y buscadores."
   },
